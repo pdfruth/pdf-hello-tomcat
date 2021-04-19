@@ -38,7 +38,7 @@ public class HelloServlet extends HttpServlet {
         }
 
         // getServletContext().getRequestDispatcher("result.jsp").forward(request, response);
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("result.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("result.html");
  
         requestDispatcher.forward(request, response);
 
