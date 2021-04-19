@@ -37,10 +37,6 @@ public class HelloServlet extends HttpServlet {
               //Do the delete action or forward the request to the servlet to do delete action
         }
 
-        // getServletContext().getRequestDispatcher("result.jsp").forward(request, response);
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("result.html");
- 
-        requestDispatcher.forward(request, response);
-
+        response.sendRedirect("result.jsp");
     }
 }
