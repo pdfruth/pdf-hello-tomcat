@@ -5,13 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Hello World Java EE</title>
+<title>Thanks for voting</title>
 </head>
 <body>
-    <h1>Hello JSP and Servlet!</h1>
-    <form action="helloServlet" method="post">
-        <input type="submit" name="Button1" value="Option1" >
-        <input type="submit" name="Button2" value="Option2" >
-    </form>
+    <h1>Thanks for your vote</h1>
+    <br>
+    <a href="index.jsp">Return to home</a>
 </body>
 </html>
